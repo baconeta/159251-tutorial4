@@ -12,10 +12,10 @@ class CalcTest {
         assertEquals(answer, 3);
     }
 
-@Test
+    @Test
     void subtract() {
         int answer = Calc.subtract(5, 3);
-        assertEquals(answer, -2);
+        assertEquals(answer, 2);
     }
 
 }
